@@ -1,0 +1,11 @@
+1. Создали папку, в нее качаем:
+                               $: npx create-react-app shop 
+2. Открытие: 
+            $: npm run start
+3. Создаем Реакт icon (добавляем библиотеку Реакт иконок):
+$: npm i react-icons
+4. Работа с ошибками:
+npm install -g react-scripts //явная установка Реакта
+npm install eslint-config-react-app --save-dev
+  Для обхода ошибки создала отдельный файл: .env
+DISABLE_ESLINT_PLUGIN=true
